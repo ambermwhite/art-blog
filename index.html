@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="logo.ico">
+    <title>Astro's Art Blog | Home</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-color: cornflowerblue
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color:blueviolet
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:mediumpurple;
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif
+}
+
+li a:hover {
+    background-color:blueviolet;
+}
+
+
+
+    .slideshow {
+        background-color:blueviolet;
+        margin-top: 20px;
+        padding: 20px;
+        color:white
+    }
+    
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color:blueviolet;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+    * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+    h2 {
+        color: white
+    }
+    .intro {
+        font-size: 36px
+    }
+    .welcome {
+        font-size: 25px; color: white
+    }
+    
+</style>
+</head>
+<body>
+
+<div class="header">
+            <img src="logo2.png" height="150" style="float:left">
+            <img src="Title.png" height="100"; style="float: none">
+                    <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="slideshow.html">Gallery</a></li>
+        </ul>
+        </div>
+
+<div class="row">
+  <div class="leftcolumn">
+          <div class="card">
+      <h2 class="intro">Welcome!</h2>
+      <p class="welcome">This website is decated to posting my art. I usually just sketch a draw random things here and there, but at some point I will probably try out animation as well.</p>
+    </div>
+    <div class="slideshow">
+      <h2><a href="slideshow.html">Latest Works</a></h2>
+      <div class="row">
+    <img src="Zombie%20Head%20Colored%20.png" alt="Zombie Complete" style="width:30%">
+    <img src="Zombie%20Head%20.png" alt="Zombie Rough Sketch" style="width:30%">
+    <img src="logo2.png" alt="My Logo" style="width:35%">
+</div>
+      <p>My latest drawings, sketches, etc.</p>
+      <p></p>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+</html>
